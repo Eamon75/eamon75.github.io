@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="qc:admins" content="3625177627601641646">
+
+    <title>下雪天</title>
+    <meta name="keywords" content="冬天,雪天,下雪,冬日恋歌,冬日,恋歌">
+    <meta name="description" content="给你感动">
+    <meta name="author" content="Pandaren">
+
+    <link href="./style/one.css" rel="stylesheet" type="text/css">
+    <link href="./style/two.css" rel="stylesheet" type="text/css">
+
+
+    <script type="text/javascript" src="./js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.let_it_snow.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+
+            $("canvas.flare").let_it_snow({
+                windPower: 0,
+                speed: 0,
+                color: "#392F52",
+                size:120,
+                opacity: 0.00000001,
+                count: 40,
+                interaction: false
+            });
+
+            $("canvas.snow").let_it_snow({
+                windPower: 3,
+                speed: 1,
+                count: 250,
+                size: 0
+            });
+
+            $("canvas.flake").let_it_snow({
+                windPower: -3,
+                speed: 1,
+                count: 20,
+                size: 10,
+                image: "image/white-snowflake.png"
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <!-- header start -->
+    <header id="panda_header" data-current="index"><div class="panda-header-container clearfix">
+    <div class="panda-header">
+        <div class="header-logo">
+          <a href="http://www.panda.tv/">
+                <img src="./image/logo.gif">
+          </a>
+        </div>
+        <div class="header-tab-container clearfix">
+                <div id="panda_header_index" class="header-tab current-tab">
+                    <a>损sai</a>
+                </div>
+<!--                 <div id="panda_header_all_lives" class="header-tab">
+                    <a href="">全部</a>
+                </div>
+                <div id="panda_header_go_sort" class="header-tab">
+                    <a href="">分类</a>
+                </div> -->
+                <div class="header-tab-hover current_index"></div>
+        </div>
+    </div>
+</div>
+</header>
+    <!-- header end -->
+    <canvas width="100%" height="100%" class="flare"></canvas>
+    <canvas width="100%" height="100%" class="snow"></canvas>
+    <canvas width="100%" height="100%" class="flake"></canvas>
+
+
+<div id="Layer1" style="position:absolute; width:100%; height:100%; z-index:-1">    
+<img src="./image/xiaobao.jpg" height="100%" width="100%"/>    
+</div> 
+
+
+<audio id="Jaudio" class="media-audio" src="./audio/1.mp3" preload="" loop="loop"></audio>
+<script>
+
+    
+function audioAutoPlay(id){
+    var audio = document.getElementById(id);
+    audio.play();
+    document.addEventListener("WeixinJSBridgeReady", function () {
+            audio.play();
+    }, false);
+    document.addEventListener('YixinJSBridgeReady', function() {
+        audio.play();
+    }, false);
+}
+audioAutoPlay('Jaudio');
+</script>
+
+
+
+</body></html>
