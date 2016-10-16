@@ -93,3 +93,8 @@ date:   2016-10-15 21:12:12
 解决方法是，在退出函数之前，将不使用的局部变量全部删除。
 
 2）闭包会在父函数外部，改变父函数内部变量的值。所以，如果你把父函数当作对象（object）使用，把闭包当作它的公用方法（Public Method），把内部变量当作它的私有属性（private value），这时一定要小心，不要随便改变父函数内部变量的值。
+
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2116502"></script>
+<!-- UY END -->
