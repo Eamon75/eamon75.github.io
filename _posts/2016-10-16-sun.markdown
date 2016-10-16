@@ -67,7 +67,7 @@ date:   2016-10-16 21:12:12
 <div id="uyan_frame"></div>
 <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2116502">
 var uyan_config = {
-     'su':'20161016' 
+	 'url':'', 
 };
 </script>
 <!-- UY END -->
