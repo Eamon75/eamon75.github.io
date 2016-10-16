@@ -1,0 +1,10 @@
+---
+title:  "haha"
+subtitle: "haha"
+author: "YiMing"
+avatar: "img/authors/wferr.png"
+image: "img/a.jpg"
+date:   2016-10-16 21:12:12
+---
+
+A
