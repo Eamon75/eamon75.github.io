@@ -62,3 +62,8 @@ date:   2016-10-16 21:12:12
 调查显示，由于径流和淤泥的缘故，切萨皮克湾每年流失的蛎床达2600英亩。另外，太平洋海岸的螃蟹和蜗牛等入侵物种也在破坏原生蛎床。全球变暖造成的海洋酸化也是蛎床消失的重要原因。
 
     [via zmescience]
+
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2116502"></script>
+<!-- UY END -->
