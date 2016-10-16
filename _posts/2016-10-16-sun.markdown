@@ -2,8 +2,8 @@
 title:  "美味：关于牡蛎的13个事实真相"
 subtitle: "牡蛎(也就是蚝)，不管喜欢或讨厌，这种黏糊糊的美味食物都随处可见。牡蛎这种东西还能清洁海洋，保持生态平衡。关于它们，还有其他一些有趣的事情"
 author: "YiMing"
-avatar: "img/authors/wferr.png"
-image: "img/torres.jpg"
+avatar: "img/authors/torres.jpg"
+image: "img/muli.jpg"
 date:   2016-10-16 21:12:12
 ---
 
